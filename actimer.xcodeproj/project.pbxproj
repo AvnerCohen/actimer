@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16A4FDD715EF53B40011F1E1 /* cute-cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 16A4FDD615EF53B40011F1E1 /* cute-cat.jpeg */; };
 		16C21BE015EF3FDE001962E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C21BDF15EF3FDE001962E8 /* UIKit.framework */; };
 		16C21BE215EF3FDE001962E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C21BE115EF3FDE001962E8 /* Foundation.framework */; };
 		16C21BE415EF3FDE001962E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C21BE315EF3FDE001962E8 /* CoreGraphics.framework */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16A4FDD615EF53B40011F1E1 /* cute-cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "cute-cat.jpeg"; path = "../../../../../Desktop/cute-cat.jpeg"; sourceTree = "<group>"; };
 		16C21BDB15EF3FDE001962E8 /* actimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = actimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C21BDF15EF3FDE001962E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		16C21BE115EF3FDE001962E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -124,6 +126,7 @@
 		16C21BE615EF3FDE001962E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				16A4FDD615EF53B40011F1E1 /* cute-cat.jpeg */,
 				16C21BE715EF3FDE001962E8 /* actimer-Info.plist */,
 				16C21BE815EF3FDE001962E8 /* InfoPlist.strings */,
 				16C21BEB15EF3FDE001962E8 /* main.m */,
@@ -225,6 +228,7 @@
 			files = (
 				16C21BEA15EF3FDE001962E8 /* InfoPlist.strings in Resources */,
 				16C21BF315EF3FDE001962E8 /* MainStoryboard.storyboard in Resources */,
+				16A4FDD715EF53B40011F1E1 /* cute-cat.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +439,7 @@
 				16C21C1015EF3FDE001962E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16C21C1115EF3FDE001962E8 /* Build configuration list for PBXNativeTarget "actimerTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +448,7 @@
 				16C21C1315EF3FDE001962E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
