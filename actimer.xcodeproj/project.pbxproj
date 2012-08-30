@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16C21BE015EF3FDE001962E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C21BDF15EF3FDE001962E8 /* UIKit.framework */; };
+		16C21BE215EF3FDE001962E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C21BE115EF3FDE001962E8 /* Foundation.framework */; };
+		16C21BE415EF3FDE001962E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C21BE315EF3FDE001962E8 /* CoreGraphics.framework */; };
+		16C21BEA15EF3FDE001962E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16C21BE815EF3FDE001962E8 /* InfoPlist.strings */; };
+		16C21BEC15EF3FDE001962E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C21BEB15EF3FDE001962E8 /* main.m */; };
+		16C21BF015EF3FDE001962E8 /* me_avner_actimerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C21BEF15EF3FDE001962E8 /* me_avner_actimerAppDelegate.m */; };
+		16C21BF315EF3FDE001962E8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C21BF115EF3FDE001962E8 /* MainStoryboard.storyboard */; };
+		16C21BF615EF3FDE001962E8 /* me_avner_actimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C21BF515EF3FDE001962E8 /* me_avner_actimerViewController.m */; };
+		16C21BFE15EF3FDE001962E8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C21BFD15EF3FDE001962E8 /* SenTestingKit.framework */; };
+		16C21BFF15EF3FDE001962E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C21BDF15EF3FDE001962E8 /* UIKit.framework */; };
+		16C21C0015EF3FDE001962E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C21BE115EF3FDE001962E8 /* Foundation.framework */; };
+		16C21C0815EF3FDE001962E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16C21C0615EF3FDE001962E8 /* InfoPlist.strings */; };
+		16C21C0B15EF3FDE001962E8 /* actimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C21C0A15EF3FDE001962E8 /* actimerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16C21C0115EF3FDE001962E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16C21BD215EF3FDD001962E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16C21BDA15EF3FDE001962E8;
+			remoteInfo = actimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16C21BDB15EF3FDE001962E8 /* actimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = actimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C21BDF15EF3FDE001962E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		16C21BE115EF3FDE001962E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16C21BE315EF3FDE001962E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		16C21BE715EF3FDE001962E8 /* actimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "actimer-Info.plist"; sourceTree = "<group>"; };
+		16C21BE915EF3FDE001962E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16C21BEB15EF3FDE001962E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16C21BED15EF3FDE001962E8 /* actimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "actimer-Prefix.pch"; sourceTree = "<group>"; };
+		16C21BEE15EF3FDE001962E8 /* me_avner_actimerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = me_avner_actimerAppDelegate.h; sourceTree = "<group>"; };
+		16C21BEF15EF3FDE001962E8 /* me_avner_actimerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = me_avner_actimerAppDelegate.m; sourceTree = "<group>"; };
+		16C21BF215EF3FDE001962E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		16C21BF415EF3FDE001962E8 /* me_avner_actimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = me_avner_actimerViewController.h; sourceTree = "<group>"; };
+		16C21BF515EF3FDE001962E8 /* me_avner_actimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = me_avner_actimerViewController.m; sourceTree = "<group>"; };
+		16C21BFC15EF3FDE001962E8 /* actimerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = actimerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C21BFD15EF3FDE001962E8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		16C21C0515EF3FDE001962E8 /* actimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "actimerTests-Info.plist"; sourceTree = "<group>"; };
+		16C21C0715EF3FDE001962E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16C21C0915EF3FDE001962E8 /* actimerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = actimerTests.h; sourceTree = "<group>"; };
+		16C21C0A15EF3FDE001962E8 /* actimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = actimerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16C21BD815EF3FDE001962E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C21BE015EF3FDE001962E8 /* UIKit.framework in Frameworks */,
+				16C21BE215EF3FDE001962E8 /* Foundation.framework in Frameworks */,
+				16C21BE415EF3FDE001962E8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C21BF815EF3FDE001962E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C21BFE15EF3FDE001962E8 /* SenTestingKit.framework in Frameworks */,
+				16C21BFF15EF3FDE001962E8 /* UIKit.framework in Frameworks */,
+				16C21C0015EF3FDE001962E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C21BD015EF3FDD001962E8 = {
+			isa = PBXGroup;
+			children = (
+				16C21BE515EF3FDE001962E8 /* actimer */,
+				16C21C0315EF3FDE001962E8 /* actimerTests */,
+				16C21BDE15EF3FDE001962E8 /* Frameworks */,
+				16C21BDC15EF3FDE001962E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16C21BDC15EF3FDE001962E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16C21BDB15EF3FDE001962E8 /* actimer.app */,
+				16C21BFC15EF3FDE001962E8 /* actimerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16C21BDE15EF3FDE001962E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16C21BDF15EF3FDE001962E8 /* UIKit.framework */,
+				16C21BE115EF3FDE001962E8 /* Foundation.framework */,
+				16C21BE315EF3FDE001962E8 /* CoreGraphics.framework */,
+				16C21BFD15EF3FDE001962E8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16C21BE515EF3FDE001962E8 /* actimer */ = {
+			isa = PBXGroup;
+			children = (
+				16C21BEE15EF3FDE001962E8 /* me_avner_actimerAppDelegate.h */,
+				16C21BEF15EF3FDE001962E8 /* me_avner_actimerAppDelegate.m */,
+				16C21BF115EF3FDE001962E8 /* MainStoryboard.storyboard */,
+				16C21BF415EF3FDE001962E8 /* me_avner_actimerViewController.h */,
+				16C21BF515EF3FDE001962E8 /* me_avner_actimerViewController.m */,
+				16C21BE615EF3FDE001962E8 /* Supporting Files */,
+			);
+			path = actimer;
+			sourceTree = "<group>";
+		};
+		16C21BE615EF3FDE001962E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16C21BE715EF3FDE001962E8 /* actimer-Info.plist */,
+				16C21BE815EF3FDE001962E8 /* InfoPlist.strings */,
+				16C21BEB15EF3FDE001962E8 /* main.m */,
+				16C21BED15EF3FDE001962E8 /* actimer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16C21C0315EF3FDE001962E8 /* actimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				16C21C0915EF3FDE001962E8 /* actimerTests.h */,
+				16C21C0A15EF3FDE001962E8 /* actimerTests.m */,
+				16C21C0415EF3FDE001962E8 /* Supporting Files */,
+			);
+			path = actimerTests;
+			sourceTree = "<group>";
+		};
+		16C21C0415EF3FDE001962E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16C21C0515EF3FDE001962E8 /* actimerTests-Info.plist */,
+				16C21C0615EF3FDE001962E8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16C21BDA15EF3FDE001962E8 /* actimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C21C0E15EF3FDE001962E8 /* Build configuration list for PBXNativeTarget "actimer" */;
+			buildPhases = (
+				16C21BD715EF3FDE001962E8 /* Sources */,
+				16C21BD815EF3FDE001962E8 /* Frameworks */,
+				16C21BD915EF3FDE001962E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = actimer;
+			productName = actimer;
+			productReference = 16C21BDB15EF3FDE001962E8 /* actimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16C21BFB15EF3FDE001962E8 /* actimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C21C1115EF3FDE001962E8 /* Build configuration list for PBXNativeTarget "actimerTests" */;
+			buildPhases = (
+				16C21BF715EF3FDE001962E8 /* Sources */,
+				16C21BF815EF3FDE001962E8 /* Frameworks */,
+				16C21BF915EF3FDE001962E8 /* Resources */,
+				16C21BFA15EF3FDE001962E8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16C21C0215EF3FDE001962E8 /* PBXTargetDependency */,
+			);
+			name = actimerTests;
+			productName = actimerTests;
+			productReference = 16C21BFC15EF3FDE001962E8 /* actimerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16C21BD215EF3FDD001962E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = me.avner.actimer;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Avner Cohen";
+			};
+			buildConfigurationList = 16C21BD515EF3FDD001962E8 /* Build configuration list for PBXProject "actimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16C21BD015EF3FDD001962E8;
+			productRefGroup = 16C21BDC15EF3FDE001962E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16C21BDA15EF3FDE001962E8 /* actimer */,
+				16C21BFB15EF3FDE001962E8 /* actimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16C21BD915EF3FDE001962E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C21BEA15EF3FDE001962E8 /* InfoPlist.strings in Resources */,
+				16C21BF315EF3FDE001962E8 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C21BF915EF3FDE001962E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C21C0815EF3FDE001962E8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16C21BFA15EF3FDE001962E8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16C21BD715EF3FDE001962E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C21BEC15EF3FDE001962E8 /* main.m in Sources */,
+				16C21BF015EF3FDE001962E8 /* me_avner_actimerAppDelegate.m in Sources */,
+				16C21BF615EF3FDE001962E8 /* me_avner_actimerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C21BF715EF3FDE001962E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C21C0B15EF3FDE001962E8 /* actimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16C21C0215EF3FDE001962E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16C21BDA15EF3FDE001962E8 /* actimer */;
+			targetProxy = 16C21C0115EF3FDE001962E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16C21BE815EF3FDE001962E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C21BE915EF3FDE001962E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		16C21BF115EF3FDE001962E8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C21BF215EF3FDE001962E8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		16C21C0615EF3FDE001962E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C21C0715EF3FDE001962E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16C21C0C15EF3FDE001962E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16C21C0D15EF3FDE001962E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16C21C0F15EF3FDE001962E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "actimer/actimer-Prefix.pch";
+				INFOPLIST_FILE = "actimer/actimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16C21C1015EF3FDE001962E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "actimer/actimer-Prefix.pch";
+				INFOPLIST_FILE = "actimer/actimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		16C21C1215EF3FDE001962E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/actimer.app/actimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "actimer/actimer-Prefix.pch";
+				INFOPLIST_FILE = "actimerTests/actimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		16C21C1315EF3FDE001962E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/actimer.app/actimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "actimer/actimer-Prefix.pch";
+				INFOPLIST_FILE = "actimerTests/actimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16C21BD515EF3FDD001962E8 /* Build configuration list for PBXProject "actimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C21C0C15EF3FDE001962E8 /* Debug */,
+				16C21C0D15EF3FDE001962E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C21C0E15EF3FDE001962E8 /* Build configuration list for PBXNativeTarget "actimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C21C0F15EF3FDE001962E8 /* Debug */,
+				16C21C1015EF3FDE001962E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16C21C1115EF3FDE001962E8 /* Build configuration list for PBXNativeTarget "actimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C21C1215EF3FDE001962E8 /* Debug */,
+				16C21C1315EF3FDE001962E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16C21BD215EF3FDD001962E8 /* Project object */;
+}
