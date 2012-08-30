@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Accelerate/Accelerate.h>
 
 @interface me_avner_actimerViewController : UIViewController
+- (IBAction)DoAction:(id)sender;
+
 
 @end

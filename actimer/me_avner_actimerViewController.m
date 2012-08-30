@@ -31,4 +31,27 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)DoAction:(id)sender {
+    UIAlertView *alertWithOkButton;
+    
+ //   CGFloat xPos = [sender X];
+  //  CGFloat yPos = [sender Y];
+    
+    NSString *mainMessage= @"Location of elements is:";
+    NSString *aa =@"aa";
+    //NSString *posXstr = [NSString stringWithFormat:@"%f", xPos];
+    
+   // [sender setTitle:posXstr];
+   // NSString *posYstr = [NSString stringWithFormat:@"%f", yPos];
+    
+    NSString *result = [mainMessage stringByAppendingString:aa];
+    result = [result stringByAppendingString:@", "];
+    //result = [result stringByAppendingString:posYstr];
+    
+    alertWithOkButton = [[UIAlertView alloc] initWithTitle:@"Mosqito position"
+                                                   message:result delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    
+    [alertWithOkButton show];
+    
+}
 @end
